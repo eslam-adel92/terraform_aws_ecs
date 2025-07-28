@@ -155,7 +155,7 @@ For issues or questions, please open an issue in this repository.
 
 1. Clone the repo and enter the directory:
    ```bash
-   git clone https://github.com/your-org/terraform-aws-ecs.git
+   git clone https://github.com/your-org/terraform_aws_ecs
    cd terraform-aws-ecs
    ```
 
