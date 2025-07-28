@@ -144,7 +144,8 @@ terraform destroy
   Auto scaling is enabled by default for app services. You can tune scaling parameters in the module inputs.
 - **Environments:**  
   For multiple environments (dev, staging, prod), use [Terraform workspaces](https://developer.hashicorp.com/terraform/language/state/workspaces) or separate state files.
-
+- **DataBases:**
+  This project does not include creating DB, as it's not recommended to create it through IaC tools to avoid any issues caused by destroying and reapplying, also to avoid the cost in the testing phases.
 ---
 
 ## Quick Start
