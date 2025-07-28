@@ -17,7 +17,7 @@ This repository contains Terraform code to provision a highly available, product
 
 ### **Compute & Container Orchestration**
 - 1 ECS Cluster (Fargate)
-- Three ECS Services (App, Migration, Queue.)
+- 1 ECS Services (App)
 - Task Definitions with secrets from AWS Secrets Manager
 
 ### **Load Balancing**
