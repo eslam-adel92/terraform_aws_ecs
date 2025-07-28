@@ -155,8 +155,8 @@ For issues or questions, please open an issue in this repository.
 
 1. Clone the repo and enter the directory:
    ```bash
-   git clone https://github.com/your-org/terraform-aws-ecs-generic.git
-   cd terraform-aws-ecs-generic
+   git clone https://github.com/your-org/terraform-aws-ecs.git
+   cd terraform-aws-ecs
    ```
 
 2. Edit `terraform.tfvars`:
@@ -180,7 +180,7 @@ For issues or questions, please open an issue in this repository.
 |---------------|----------------------------|--------------|-----------|
 | region        | AWS region                 | us-east-1    | yes       |
 | aws_profile   | AWS CLI profile            | default      | yes       |
-| project_name  | Name for tagging           | generic-app  | yes       |
+| project_name  | Name for tagging           | app          | yes       |
 | app_image     | Docker image for the app   |              | Yes       |
 | rds_secret    | ARN for DB secret          |              | No        |
 
