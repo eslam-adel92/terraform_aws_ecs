@@ -147,10 +147,6 @@ terraform destroy
 
 ---
 
-## **Support**
-
-For issues or questions, please open an issue in this repository.
-
 ## Quick Start
 
 1. Clone the repo and enter the directory:
@@ -195,7 +191,7 @@ module "ecs_module_worker" {
   # ...other variables...
 }
 ```
+---
+## **Support**
 
-## Contributing
-
-Pull requests and issues are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+For issues or questions, please open an issue in this repository.
