@@ -1,5 +1,7 @@
 # ECS AWS Highly Available Infrastructure with Terraform
 
+![Architecture Diagram](./architecture-diagram.png)
+
 This repository contains Terraform code to provision a highly available, production-ready AWS infrastructure for containerized applications. It includes VPC networking, ECS Fargate clusters, load balancing, IAM roles, secrets management, and auto scaling.
 
 ---
